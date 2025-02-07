@@ -1,0 +1,529 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 410px
+*/
+@media (min-width: 280px) and (max-width: 319px) {
+
+	.container{
+		/* flex-direction: row;  */
+		width: 1385vw;
+	
+	}
+
+  h1{
+      font-size: 22px;    
+  }
+
+  p{
+
+      font-size: 14px;
+  }
+
+	.grass{	
+		height: 160px;
+		bottom:0%;
+	}
+
+  .avatar	{
+      width:150px ;
+      height: 150px;
+      position: sticky;
+      left: 20%;
+      z-index: 2;
+  }
+
+  .navi_left{
+      width: 85px;
+      height: 65px;
+      /* top: 0%;
+      right: 50%; */
+  }
+
+  .navi_right{
+      width: 85px;
+      height: 65px;
+      /* top: 0%;
+      left: 50%; */
+  }
+
+  .navi_static{
+      width: 100px;
+      height: 70px;
+      /* top: 0%;
+      left: 50%; */
+  }
+
+.wz_cont{
+      position: fixed;
+      width: 275px;
+      height: 150px;
+      bottom: 380px;
+      left: 0.6%;
+  }
+
+  .wilmer{
+      width: 125px;
+      height: 75px;
+      /* left: 0%;
+      z-index: 1; */
+  }
+
+  .zapata{
+      width: 125px;
+      height: 75px;
+      left: 50%;
+
+  }
+
+  .flagvzla{
+      width: 225px;
+      height: 85px;
+      top: 10%;
+  }
+
+	.araguanei{
+		width: 330px;
+		height: 350px;
+		bottom: 95px;
+		left: 0%;
+	}
+  #indications{
+    width: 150px;
+    height: 90px;
+    bottom: 290px;
+    left: 110px;
+}
+	#alpine_mountain{
+      width: 500px;
+      height: 330px;
+      left: 350px;
+      bottom: 75px;
+    }
+
+  #large_mountain{
+    width: 700px;
+    height: 400px;
+    left: 2400px;
+    bottom: 50px;
+  }
+
+  #cloud-1{
+      width: 150px;
+      height: 50px;
+      left: 10px;
+      bottom: 500px;
+  }
+
+  #cloud-2{
+      width: 160px;
+      height: 60px;
+      left: 110px;
+      bottom: 280px;
+  }
+
+  #cloud-3{
+      width: 150px;
+      height: 50px;
+      left: 200px;
+      bottom: 450px;
+  }
+
+  #cloud-4{
+      width: 160px;
+      height: 60px;
+      left: 400px;
+      bottom: 340px;
+  }
+
+  #forest{
+      width: 530px;
+      height: 360px;
+      left: 800px;
+      bottom: 60px;
+  }
+
+  #green_forest{
+      width: 530px;
+      height: 360px;
+      left: 1000px;
+      bottom: 60px;
+  }
+
+  #forest_2{
+    width: 530px;
+    height: 360px;
+    left: 1400px;
+    bottom: 60px;
+  }
+
+  #green_forest_2{
+    width: 530px;
+    height: 360px;
+    left: 1600px;
+    bottom: 60px;
+  }
+
+  #language_content{
+    width: 450px;
+    height: 250px;
+    left:1000px;
+    bottom: 200px;
+  }
+
+  #framework_content{
+    width: 490px;
+    height: 250px;
+    left:1650px;
+    bottom: 200px;
+  }
+
+  #design_content{
+    width: 480px;
+    height: 250px;
+    left:2800px;
+    bottom: 200px;
+  }
+
+.programming_row{
+    /* margin-left: 13%; */
+    bottom: 15px;
+}
+
+  .programming_row>p{
+      margin-right:60px; 
+      padding-left: 35px;
+  }
+
+  .framework_row{
+    /* margin-left: 13%; */
+    bottom: 15px;
+  }
+
+  .framework_row>p{
+      margin-right:60px; 
+      padding-left: 35px;
+  }
+
+  .design_row{
+      /* margin-left: 13%; */
+      bottom: 15px;
+  }
+
+  .design_row>p{
+      margin-right:40px; 
+      padding-left: 20px;
+  }
+
+  #fans_videogame{
+    font-size: 16px;
+    left:2300px;
+    bottom: 450px !important;
+  }
+
+  .skills_frame>p{
+      padding-top: 10%;
+  }
+  
+  #skullt_1{
+      width: 70px;
+      height: 90px;
+      left: 40px; 
+  }
+
+  #skullt_2{
+      width: 70px;
+      height: 90px;
+      left: 190px; 
+  }
+
+  #skullt_3{
+    width: 70px;
+    height: 90px;
+    left: 320px; 
+  }
+
+  #react_icon{
+    width: 50px;
+    height: 50px;
+    bottom:50px;
+    left: 40px; 
+  }
+
+  #wordpress{
+    width: 50px;
+    height: 50px;
+    bottom:110px;
+    left: 210px; 
+  }
+
+  #react_icon_2{
+    width: 50px;
+    height: 50px;
+    bottom:170px;
+    left: 360px; 
+  }
+
+  #bush_1{
+    width: 120px;
+    height: 70px;
+    left:850px;
+    bottom: 120px;
+  }
+
+  #bush_2{
+    width: 120px;
+    height: 70px;
+    left:1570px;
+    bottom: 120px;
+  }
+
+  #bush_3{
+    width: 120px;
+    height: 70px;
+    left:2070px;
+    bottom: 130px;
+  }
+
+  #bush_4{
+    width: 150px;
+    height: 100px;
+    left:2700px;
+    bottom: 120px;
+  }
+
+  #bush_5{
+    width: 100px;
+    height: 80px;
+    left:3750px;
+    bottom: 120px;
+  }
+
+  #bush_rock{
+    width: 310px;
+    height: 80px;
+    left:0px;
+    bottom: -10px;
+  }
+
+  #deku_tree{
+    width: 500px;
+	height: 450px;
+    bottom:155px;
+	left:2150px;
+  }
+
+  #deku_scrub1{
+    width: 120px;
+	height: 120px;
+    bottom:23px;
+	left:2200px;
+  }
+
+  #deku_scrub2{
+    width: 120px;
+	height: 120px;
+    bottom:23px;
+	left:2410px;
+  }
+
+  #afterEffects{
+    width: 60px;
+    height: 60px;
+    bottom:225px;
+    padding-left: 650px;
+  }
+
+  #illustrator{
+    width: 60px;
+    height: 60px;
+    bottom:225px;
+    padding-left: 380px;
+  }
+
+  #photoshop{
+    width: 60px;
+    height: 60px;
+    bottom:290px;
+    padding-left: 80px;
+  }
+
+  #stars{
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    z-index: -1;
+    left: 3600px;
+    bottom: 150px;
+  }
+
+    #rock{
+    width: 350px;
+    height: 200px;
+    left: 3450px;
+    bottom: 120px;
+    }
+
+  #wolf{
+		width: 100px;
+		height: 40px;
+		left:100px;
+		top: -80px;
+	}
+
+	#moon{
+		width: 100px;
+		height: 100px;
+		left:100px;
+		bottom: 350px;
+	}
+
+  #end_point{
+    width: 50px;
+		height: 50px;
+		left: 3550px;
+		bottom: 120px;
+  }
+
+  #contact{
+    left:3665px;
+    bottom: 410px;
+    visibility: hidden;
+
+}
+
+  #social_media{
+    width: 90px;
+    height: 30px;
+    left:3780px;
+    bottom: 450px;
+  }
+
+  #facebook{    
+    width: 40px;
+    height: 40px;
+  }
+
+  #linkedin{
+      width: 35px;
+      height: 35px;
+  }
+
+  #instagram{
+      width: 45px;
+      height: 45px;
+  }
+
+  #twitter{
+      width: 40px;
+      height: 40px;
+  }
+
+/* Skullta animation */
+  @keyframes mover_skullta_1{
+
+      0%    {bottom:180px;transform:rotate(0deg);}
+      75%   {bottom:100px; transform:rotate(0deg);}
+      100%  {bottom:10px;transform:rotate(180deg);}
+  }
+
+  @-moz-keyframes mover_skullta_1{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:10px;transform:rotate(180deg);}
+  }
+  @-webkit-keyframes mover_skullta_1{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:10px;transform:rotate(180deg);}
+  }
+
+  @keyframes mover_skullta_2{
+
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:60px;transform:rotate(180deg);}
+  }
+  @-moz-keyframes mover_skullta_2{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:60px;transform:rotate(180deg);}
+  }
+  @-webkit-keyframes mover_skullta_2{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:60px;transform:rotate(180deg);}
+  }
+
+  @keyframes mover_skullta_3{
+
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:130px;transform:rotate(180deg);}
+  }
+  @-moz-keyframes mover_skullta_3{
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:130px;transform:rotate(180deg);}
+  }
+  @-webkit-keyframes mover_skullta_3{
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:130px;transform:rotate(180deg);}
+  }
+
+  @-webkit-keyframes swing {
+    20% {
+      -webkit-transform: rotate3d(0, 0, 1, 3deg);
+      transform: rotate3d(0, 0, 1, 3deg);
+    }
+
+    40% {
+      -webkit-transform: rotate3d(0, 0, 1, -3deg);
+      transform: rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+      -webkit-transform: rotate3d(0, 0, 1, 1deg);
+      transform: rotate3d(0, 0, 1, 1deg);
+    }
+
+    80% {
+      -webkit-transform: rotate3d(0, 0, 1, -1deg);
+      transform: rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+  }
+
+  @keyframes swing {
+    20% {
+      -webkit-transform: rotate3d(0, 0, 1, 3deg);
+      transform: rotate3d(0, 0, 1, 3deg);
+    }
+
+    40% {
+      -webkit-transform: rotate3d(0, 0, 1, -3deg);
+      transform: rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+      -webkit-transform: rotate3d(0, 0, 1, 1deg);
+      transform: rotate3d(0, 0, 1, 1deg);
+    }
+
+    80% {
+      -webkit-transform: rotate3d(0, 0, 1, -1deg);
+      transform: rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+  }
+}
+

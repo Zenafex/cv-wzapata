@@ -1,0 +1,529 @@
+
+  
+@media (min-width: 411px) and (max-width: 480px) {
+
+	.container{
+		/* flex-direction: row;  */
+		width: 4010px;
+	
+	}
+
+    h1{
+        font-size: 20px;    
+    }
+
+    p{
+
+        font-size: 16px;
+    }
+
+	.grass{	
+		height: 160px;
+		bottom:0%;
+	}
+
+    .avatar	{
+        width:165px ;
+        height: 165px;
+        position: sticky;
+        left: 30%;
+        z-index: 2;
+    }
+
+    .navi_left{
+        width: 85px;
+        height: 65px;
+        /* top: 0%;
+        right: 50%; */
+    }
+
+    .navi_right{
+        width: 85px;
+        height: 65px;
+        /* top: 0%;
+        left: 50%; */
+    }
+
+    .navi_static{
+        width: 100px;
+        height: 70px;
+        /* top: 0%;
+        left: 50%; */
+    }
+
+	.wz_cont{
+        position: fixed;
+        width: 250px;
+        height: 140px;
+        bottom: 300px;
+        left: 1.5%;
+    }
+
+    .wilmer{
+        width: 125px;
+        height: 90px;
+        /* left: 0%;
+        z-index: 1; */
+    }
+
+    .zapata{
+        width: 125px;
+        height: 90px;
+        left: 50%;
+
+    }
+    #interactive_resume{
+        position: absolute;
+        width: 300px;
+
+    }
+    .flagvzla{
+        width: 225px;
+        height: 85px;
+        top: 10%;
+    }
+
+	.araguanei{
+		width: 380px;
+		height: 380px;
+		bottom: 100px;
+		left: 0%;
+	}
+    #indications{
+        width: 150px;
+        height: 90px;
+        bottom: 220px;
+        left: 240px;
+    }
+	#alpine_mountain{
+        width: 550px;
+        height: 380px;
+        left: 350px;
+        bottom: 60px;
+    }
+
+    #large_mountain{
+        width: 700px;
+        height: 400px;
+        left: 2500px;
+        bottom: 50px;
+    }
+
+    #cloud-1{
+        width: 150px;
+        height: 50px;
+        left: 10px;
+        bottom: 520px;
+    }
+    #cloud-2{
+        width: 160px;
+        height: 60px;
+        left: 110px;
+        bottom: 280px;
+    }
+
+    #cloud-3{
+        width: 150px;
+        height: 50px;
+        left: 200px;
+        bottom: 450px;
+    }
+
+    #cloud-4{
+        width: 160px;
+        height: 60px;
+        left: 400px;
+        bottom: 340px;
+    }
+
+    #forest{
+        width: 530px;
+        height: 360px;
+        left: 850px;
+        bottom: 95px;
+    }
+
+    #green_forest{
+        width: 530px;
+        height: 360px;
+        left: 1100px;
+        bottom: 95px;
+    }
+
+    #forest_2{
+        width: 530px;
+        height: 360px;
+        left: 1500px;
+        bottom: 95px;
+    }
+  
+    #green_forest_2{
+        width: 530px;
+        height: 360px;
+        left: 1700px;
+        bottom: 95px;
+    }
+
+    #framework_content{
+        width: 490px;
+        height: 250px;
+        left:1750px;
+        bottom: 230px;
+    }
+
+    #language_content{
+        width: 500px;
+        height: 300px;
+        left:1000px;
+        bottom: 190px;
+    }
+    
+    #design_content{
+        width: 480px;
+        height: 250px;
+        left:2900px;
+        bottom: 230px;
+    }
+
+    .programming_row{
+        /* margin-left: 13%; */
+        bottom: 15px;
+    }
+
+    .programming_row>p{
+        margin-right:60px; 
+        padding-left: 35px;
+    }
+
+    
+    .framework_row{
+        /* margin-left: 13%; */
+        bottom: 15px;
+    }
+
+    .framework_row>p{
+        margin-right:60px; 
+        padding-left: 25px;
+    }
+
+    .design_row{
+        /* margin-left: 13%; */
+        bottom: 15px;
+    }
+  
+    .design_row>p{
+        margin-right:40px; 
+        padding-left: 15px;
+    }
+
+    #fans_videogame{
+        font-size: 16px;
+        left:2450px;
+        bottom: 450px !important;
+    }
+    
+    .skills_frame>p{
+        padding-top: 10%;
+    }
+
+    #skullt_1{
+        width: 80px;
+        height: 100px;
+        left: 50px; 
+    }
+
+    #skullt_2{
+        width: 80px;
+        height: 100px;
+        left: 200px; 
+    }
+
+    #skullt_3{
+        width: 80px;
+        height: 100px;
+        left: 340px; 
+    }
+    
+    #react_icon{
+        width: 50px;
+        height: 50px;
+        bottom:50px;
+        left: 40px; 
+    }
+  
+    #wordpress{
+        width: 50px;
+        height: 50px;
+        bottom:120px;
+        left: 210px; 
+    }
+
+    #react_icon_2{
+        width: 50px;
+        height: 50px;
+        bottom:180px;
+        left: 360px; 
+    }
+
+    #bush_1{
+        width: 120px;
+        height: 70px;
+        left:850px;
+        bottom: 130px;
+    }
+    
+    #bush_2{
+        width: 120px;
+        height: 70px;
+        left:1600px;
+        bottom: 120px;
+    }
+    
+    #bush_3{
+        width: 120px;
+        height: 70px;
+        left:2200px;
+        bottom: 130px;
+    }
+
+    #bush_4{
+        width: 150px;
+        height: 100px;
+        left:2750px;
+        bottom: 120px;
+    }
+
+    #bush_5{
+        width: 130px;
+        height: 100px;
+        left:3800px;
+        bottom: 110px;
+    }
+
+    #bush_rock{
+        width: 310px;
+        height: 80px;
+        left:0px;
+        bottom: -10px;
+    }
+    
+    #deku_tree{
+        width: 500px;
+        height: 450px;
+        bottom:155px;
+        left:2300px;
+    }
+
+    #deku_scrub1{
+        width: 150px;
+        height: 150px;
+        bottom:23px;
+        left:2340px;
+    }
+
+    #deku_scrub2{
+        width: 150px;
+        height: 150px;
+        bottom:23px;
+        left:2550px;
+    }
+
+    #afterEffects{
+        width: 60px;
+        height: 60px;
+        bottom:240px;
+        padding-left: 670px;
+    }
+    
+    #illustrator{
+        width: 60px;
+        height: 60px;
+        bottom:240px;
+        padding-left: 380px;
+    }
+
+    #photoshop{
+        width: 60px;
+        height: 60px;
+        bottom:310px;
+        padding-left: 80px;
+    }
+    
+    #stars{
+        position: absolute;
+        width: 80vw;
+        height: 60vh;
+        z-index: -1;
+        left: 3580px;
+        bottom: 180px;
+    }
+
+    #rock{
+        width: 350px;
+        height: 200px;
+        left: 3450px;
+        bottom: 120px;
+    }
+
+    #wolf{
+        width: 100px;
+        height: 40px;
+        left:100px;
+        top: -80px;
+    }
+
+    #moon{
+        width: 100px;
+        height: 100px;
+        left:150px;
+        bottom: 320px;
+    }
+
+    #end_point{
+        width: 50px;
+        height: 50px;
+        left: 3500px;
+        bottom: 120px;
+    }
+
+    #contact{
+        left:3750px;
+        bottom: 395px;
+    }
+
+    #social_media{
+        width: 90px;
+        height: 30px;
+        left:3850px;
+        bottom: 400px;
+    }
+
+    #facebook{    
+        width: 40px;
+        height: 40px;
+    }
+
+    #linkedin{
+        width: 35px;
+        height: 35px;
+    }
+
+    #instagram{
+        width: 45px;
+        height: 45px;
+    }
+
+    #twitter{
+        width: 40px;
+        height: 40px;
+    }
+
+/* Skullta animation */
+    @keyframes mover_skullta_1{
+
+        0%    {bottom:180px;transform:rotate(0deg);}
+        75%   {bottom:100px; transform:rotate(0deg);}
+        100%  {bottom:10px;transform:rotate(180deg);}
+    }
+
+    @-moz-keyframes mover_skullta_1{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:10px;transform:rotate(180deg);}
+    }
+    @-webkit-keyframes mover_skullta_1{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:10px;transform:rotate(180deg);}
+    }
+
+    @keyframes mover_skullta_2{
+
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:70px;transform:rotate(180deg);}
+    }
+    @-moz-keyframes mover_skullta_2{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:70px;transform:rotate(180deg);}
+    }
+    @-webkit-keyframes mover_skullta_2{
+    0%    {bottom:180px;transform:rotate(0deg);}
+    75%   {bottom:100px; transform:rotate(0deg);}
+    100%  {bottom:70px;transform:rotate(180deg);}
+    }
+
+    @keyframes mover_skullta_3{
+
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:140px;transform:rotate(180deg);}
+    }
+    @-moz-keyframes mover_skullta_3{
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:140px;transform:rotate(180deg);}
+    }
+    @-webkit-keyframes mover_skullta_3{
+    0%    {bottom:250px;transform:rotate(0deg);}
+    75%   {bottom:150px; transform:rotate(0deg);}
+    100%  {bottom:140px;transform:rotate(180deg);}
+    }
+
+    @-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 3deg);
+        transform: rotate3d(0, 0, 1, 3deg);
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -3deg);
+        transform: rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 1deg);
+        transform: rotate3d(0, 0, 1, 1deg);
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -1deg);
+        transform: rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    }
+
+    @keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 3deg);
+        transform: rotate3d(0, 0, 1, 3deg);
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -3deg);
+        transform: rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 1deg);
+        transform: rotate3d(0, 0, 1, 1deg);
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -1deg);
+        transform: rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    }
+}
+

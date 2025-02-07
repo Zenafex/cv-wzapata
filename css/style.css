@@ -1,0 +1,585 @@
+@import 'media_q/min_280_max_319.css';
+@import 'media_q/min_320_max_410.css';
+@import 'media_q/min_411_max_480.css';
+@import 'media_q/min_481_max_767.css';
+@import 'media_q/min_768_max_1024.css';
+@import 'media_q/min_1025_max_1349.css';
+@import 'media_q/min_1350.css';
+
+@import 'loader.css';
+@import 'animation.css';
+@import 'fonts/coiny.css';
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+    font-family: Georgia, serif;
+    margin: 0px;
+    text-shadow: 1px 1px 1px #000000;
+    /* font-size: 18px; */
+}
+#triforce{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+    left: 40%;
+    z-index: 5 !important;
+
+}
+.main-container{
+    width: 100vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    position: absolute;
+    scrollbar-width: none;
+    /* -ms-text-overflow-style: none;  */
+}
+
+.container{
+    display: inline-flex; 
+    /* flex-direction: row;  */
+    /* width: 500vw; */
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    background: #02bbed; 
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.block-support{
+    height: 100vh;
+}
+
+.grass{
+    width: 100%;
+    position:absolute;
+    background-image: url(../images/grass.png);
+    z-index: 0 !important;
+
+}
+
+.content_letters{
+    font-family: 'Coiny', normal;
+    margin: 0px;
+    text-shadow: 2px 2px 2px #082b34;
+    position: absolute;
+    top:-30%;
+    left:10%;
+}
+.contact{
+    font-family: 'Coiny', normal;
+    margin: 0px;
+    text-shadow: 2px 2px 2px #082b34;
+    position: absolute;
+}
+
+.content_letters_2{
+    font-family: 'Coiny', normal;
+    margin: 0px;
+    text-shadow: 2px 2px 2px #082b34;
+    position: absolute;
+    left:10%;
+}
+
+/* to align all items on grass */
+.content_grass{
+    width: 100%;
+    position: absolute;
+    bottom: 70%;
+}
+
+.avatar	{
+    /* width:210px ;
+    height: 210px; */
+    position: sticky;
+    z-index: 3;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navi_left{
+    background-image: url(../images/navi_move.gif);
+    position: absolute;
+    /* width: 100px;
+    height: 80px; */
+    top: 0%;
+    right: 50%;
+    background-size: 100% 100%;
+    transform: scaleX(-1);
+
+}
+.navi_right{
+    background-image: url(../images/navi_move.gif);
+    position: absolute;
+    /* width: 100px;
+    height: 80px; */
+    top: 0%;
+    left: 50%;
+    background-size: 100% 100%;
+
+}
+.navi_static{
+    background-image: url(../images/navi.gif);
+    position: absolute;
+    /* width: 120px;
+    height: 90px; */
+    top: 0%;
+    left: 50%;
+    background-size: 100% 100%;
+
+}
+
+.wz_cont{
+    position: fixed;
+    /* width: 400px;
+    height: 200px; */
+    /* bottom: 300px; */
+    /* left: 10%; */
+}
+
+.wilmer{
+    background-image: url(../images/wilmer-intro.png);
+    position: absolute;
+    /* width: 200px;
+    height: 100px; */
+    background-size: 100% 100%;
+    left: 0%;
+    z-index: 1;
+
+}
+
+.zapata{
+    background-image: url(../images/zapata-intro.png);
+    position: absolute;
+    /* width: 200px;
+    height: 100px; */
+    background-size: 100% 100%;
+    left: 50%;
+    z-index: 1;
+
+}
+
+.flagvzla{
+    background-image: url(../images/svg/vzlaflag.svg);
+    position: absolute;
+    transform: rotate(-179deg) ;
+    background-size: 100% 100%;
+    z-index: 0;
+    top: 10%;
+    /* width: 400px;
+    height: 110px; */
+}
+
+.araguanei{
+    background-size: cover;
+    position: fixed;
+    /* background-image: url(../images/svg/araguanei.svg); */
+    /* width: 530px;
+    height: 530px; */
+    /* bottom: 75px; */
+    /* left: 2px; */
+
+}
+
+#indications{
+    background-image: url(../images/svg/indications.svg);
+	background-repeat: no-repeat;
+    position: fixed;
+}
+
+.parallaxEffectMount{
+    display: inline-block;
+    position: relative;
+}
+
+.parallaxTree{
+    display: inline-block;
+    position: relative;
+}
+
+.parallaxTreeBack{
+    display: inline-block;
+    position: relative;
+}
+
+.parallaxCloudes{
+    display: inline-block;
+    position: relative;
+}
+
+.alpine_mountain{
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/svg/alpine_mountain.svg);
+    background-size: 100% 100%;
+    z-index: -2 !important;
+    -moz-transform: scaleX(-1); /* Firefox */
+    -o-transform: scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Chrome y Safari */
+    transform: scaleX(-1); /* w3org */
+}
+
+.large_mountain{
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/svg/large_mountain.svg);
+    background-size: 100% 100%;
+    z-index: -2 !important;
+    -moz-transform: scaleX(-1); /* Firefox */
+    -o-transform: scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Chrome y Safari */
+    transform: scaleX(-1); /* w3org */
+}
+.forest{
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/svg/forest.svg);
+    background-size: 100% 100%;
+    z-index: -1 !important;
+}
+.green_forest{
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/svg/green_forest.svg);
+    background-size: 100% 100%;
+    /* bottom: 60px; */
+    z-index: -2 !important;
+}
+
+.cloud{
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/svg/cloud.svg);
+    background-size: 100% 100%;
+    z-index: -3 !important;
+}
+
+#language_content{
+    position: absolute;
+}
+
+#programming_language{
+    display: flex;
+}
+
+#framework_content{
+    position: absolute;
+}
+
+#design_content{
+    position: absolute;
+}
+
+#fans_videogame{
+    position: absolute;
+}
+
+.programming_row{
+    display: flex;
+    margin-left: 15%;
+    bottom: 15px;
+}
+
+.framework_row{
+    display: flex;
+    margin-left: 15%;
+    bottom: 15px;
+}
+
+.design_row{
+    display: flex;
+    margin-left: 15%;
+    bottom: 15px;
+}
+
+.skills_frame>p{
+    padding-top: 10%;
+    border-bottom: 1.5px solid white;
+}
+
+.skullts{
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    transform: scaleY(-1);
+    position: fixed;	  
+}
+.designIcons{
+    position: absolute;	  
+}
+
+#skullt_1{
+    visibility: hidden;
+    position: fixed;
+}
+
+#skullt_2{
+    visibility: hidden;
+    position: fixed;
+}
+
+#skullt_3{
+    visibility: hidden;
+    position: fixed;
+}
+
+#wordpress{
+    background-image: url(../images/svg/wordpress.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+
+}
+
+#react_icon{
+    background-image: url(../images/svg/react_icon.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+
+}
+#react_icon_2{
+    background-image: url(../images/svg/react_icon.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+}
+
+#bush_1{
+    position: absolute;
+    background-image: url(../images/svg/bush_1.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#bush_2{
+    position: absolute;
+    background-image: url(../images/svg/bush_2.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#bush_3{
+    position: absolute;
+    background-image: url(../images/svg/bush_1.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#bush_4{
+    position: absolute;
+    background-image: url(../images/svg/bush_2.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#bush_5{
+    position: absolute;
+    background-image: url(../images/svg/bush_1.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#bush_rock{
+    position: absolute;
+    background-image: url(../images/svg/bush_rock.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#deku_tree{
+    position: absolute;
+}
+
+#deku_scrub1,#deku_scrub2{
+    position: absolute;
+    background-image: url(../images/svg/dekuScrub.svg);
+    background-size: 100% 100%;
+    z-index: 0 !important;
+}
+
+#afterEffects{
+    background-image: url(../images/svg/AEicon.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+}
+
+#illustrator{
+    background-image: url(../images/svg/Aiicon.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+}
+
+#photoshop{
+    background-image: url(../images/svg/Psicon.svg);
+    visibility: hidden;
+    position: fixed;
+    background-size: 100% 100%;
+}
+
+.star{
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  position: relative;
+  border-radius: 50%;
+  z-index: -2;
+}
+
+#stars{
+    visibility: hidden;
+}
+
+.e1
+{
+	top:-10%;
+	left:13%;
+}
+.e2
+{
+	top:15%;
+	left:25%;
+}
+.e3
+{
+	top:40%;
+	left:40%;
+}
+.e4
+{
+	top:40%;
+	left:85%;
+}
+
+.e5
+{
+	top:-20%;
+	left:80%;
+}
+.e6
+{
+	top: 5%;
+	left:90%;
+}
+.e7
+{
+	top:-15%;
+	left:99%;
+}
+
+#rock{
+	position: absolute;
+	background-image: url(../images/svg/rock.svg);
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+#wolf{
+	position: absolute;
+	background-repeat: no-repeat;
+	z-index: -1;
+	visibility: hidden;
+}
+
+#moon{
+	position: absolute;
+	background-image: url(../images/svg/moon.svg);
+	background-repeat: no-repeat;
+	z-index: 1;
+	visibility: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 6px rgba(255,255,255,.3)
+}
+
+#end_point{
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+}
+#contact{
+    position: absolute;
+    visibility: hidden;
+}
+#social_media{
+    position: absolute;
+	background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+#facebook{
+    position: relative;
+    background-image: url(../images/svg/facebook.svg);
+	background-repeat: no-repeat;
+    /* visibility: hidden; */
+    margin: 12px;
+}
+#linkedin{
+    position: relative;
+    background-image: url(../images/svg/linkin.svg);
+	background-repeat: no-repeat;
+    /* visibility: hidden; */
+    margin: 12px;
+
+}
+#instagram{
+    position: relative;
+    background-image: url(../images/svg/instagram.svg);
+	background-repeat: no-repeat;
+    /* visibility: hidden; */
+    margin: 12px;
+
+}
+#twitter{
+    position: relative;
+    background-image: url(../images/svg/twitter.svg);
+    background-repeat: no-repeat;
+    /* visibility: hidden; */
+    margin: 12px;
+
+}
+
+/* #web_1{
+    width: 150px;
+    height: 150px;
+    top:150px;
+    left:170px;
+}
+
+#web_2{
+    width: 150px;
+    height: 150px;
+    top:245px;
+    left:350px;
+}
+
+#web_3{
+    width: 150px;
+    height: 150px;
+    top:340px;
+    left:550px;
+} */
+
+/* #web_1,#web_2,#web_3{
+    background-image: url(../images/svg/web.svg); 
+    z-index: -1;
+    visibility: hidden;
+    position: absolute;
+} 
+*/
